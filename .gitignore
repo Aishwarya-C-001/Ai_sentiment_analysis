@@ -1,0 +1,51 @@
+# =========================
+# Logs
+# =========================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =========================
+# Frontend (React/Vite)
+# =========================
+frontend/node_modules
+frontend/dist
+frontend/dist-ssr
+frontend/*.local
+frontend/.env
+
+# =========================
+# Backend (Python/FastAPI)
+# =========================
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
+
+# Virtual environments
+backend/venv/
+backend/env/
+
+# Environment variables
+backend/.env
+
+# ML outputs (VERY IMPORTANT)
+backend/outputs/*.csv
+backend/outputs/topic_model/
+
+# =========================
+# Editor / OS files
+# =========================
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
